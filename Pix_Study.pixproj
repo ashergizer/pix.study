@@ -17,6 +17,11 @@
       <IsMain>false</IsMain>
       <Path>nuget.config</Path>
     </ProjectFileItem>
+    <ProjectFileItem z:Id="i5">
+      <IsDirectory>false</IsDirectory>
+      <IsMain>false</IsMain>
+      <Path>base_act.pix</Path>
+    </ProjectFileItem>
   </Files>
   <MasterUploadId i:nil="true" />
   <Name>Pix_Study</Name>
