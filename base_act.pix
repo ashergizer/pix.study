@@ -76,7 +76,7 @@
         <EnableStatus>true</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
-        <Text>Вывод</Text>
+        <Text>Вывод1111</Text>
         <_activityFullName>Activities.Interactive.MessageBox</_activityFullName>
       </AbstractStep>
     </Childs>
