@@ -2700,7 +2700,7 @@
           <PropertyValue z:Id="i310">
             <PropertyName>Value</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>value</_expression>
+            <_expression>task</_expression>
             <_screenShotBase64 i:nil="true" />
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
@@ -3111,7 +3111,7 @@
           <PropertyValue z:Id="i358">
             <PropertyName>Body</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>"У вас " + value + " задач"</_expression>
+            <_expression>"У вас " + task + " задач"</_expression>
             <_screenShotBase64 i:nil="true" />
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
@@ -3177,11 +3177,36 @@
       <AbstractStep z:Id="i365" i:type="ExecutedStep">
         <Childs />
         <HeightOnFlowchart>50</HeightOnFlowchart>
-        <Id>4602089a-77a3-4ba3-ad1a-a8c1110e8c5a</Id>
+        <Id>5bd3d841-63f1-4d1c-a926-5dad6af126c2</Id>
         <Parent z:Ref="i2" />
         <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
         <PropertyValues>
           <PropertyValue z:Id="i366">
+            <PropertyName>Browser</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>browser</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId>1</SelectedOptionId>
+        <WidthOnFlowchart>360</WidthOnFlowchart>
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>Activities.Web.CloseBrowser</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i367" i:type="ExecutedStep">
+        <Childs />
+        <HeightOnFlowchart>50</HeightOnFlowchart>
+        <Id>4602089a-77a3-4ba3-ad1a-a8c1110e8c5a</Id>
+        <Parent z:Ref="i2" />
+        <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+        <PropertyValues>
+          <PropertyValue z:Id="i368">
             <PropertyName>Text</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>"У вас " + value + " задач"</_expression>
@@ -3189,7 +3214,7 @@
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
-          <PropertyValue z:Id="i367">
+          <PropertyValue z:Id="i369">
             <PropertyName>Title</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>"Задачи"</_expression>
@@ -3225,14 +3250,14 @@
   <Name>Yandex1.pix</Name>
   <Namespaces xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   <Params>
-    <Parameter z:Id="i368">
+    <Parameter z:Id="i370">
       <DefaultValueExpression>@"282Vitte"</DefaultValueExpression>
       <Description></Description>
       <Name>pass</Name>
       <RunnerType>Freeze</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
-    <Parameter z:Id="i369">
+    <Parameter z:Id="i371">
       <DefaultValueExpression>@"deysrhjxedwahjjx"</DefaultValueExpression>
       <Description></Description>
       <Name>mailpass</Name>

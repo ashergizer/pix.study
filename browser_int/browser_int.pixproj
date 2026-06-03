@@ -27,6 +27,11 @@
       <IsMain>false</IsMain>
       <Path>mail.pix</Path>
     </ProjectFileItem>
+    <ProjectFileItem z:Id="i7">
+      <IsDirectory>false</IsDirectory>
+      <IsMain>false</IsMain>
+      <Path>my_task.pix</Path>
+    </ProjectFileItem>
   </Files>
   <MasterUploadId i:nil="true" />
   <Name>browser_int</Name>
