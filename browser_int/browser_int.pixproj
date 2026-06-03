@@ -20,16 +20,16 @@
     <ProjectFileItem z:Id="i5">
       <IsDirectory>false</IsDirectory>
       <IsMain>false</IsMain>
-      <Path>fourth_lesson.pix</Path>
+      <Path>Yandex1.pix</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i6">
       <IsDirectory>false</IsDirectory>
       <IsMain>false</IsMain>
-      <Path>sap_auth.pix</Path>
+      <Path>mail.pix</Path>
     </ProjectFileItem>
   </Files>
   <MasterUploadId i:nil="true" />
-  <Name>sap</Name>
+  <Name>browser_int</Name>
   <PlatformVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System">
     <d2p1:_Build>0</d2p1:_Build>
     <d2p1:_Major>3</d2p1:_Major>
