@@ -3111,7 +3111,7 @@
           <PropertyValue z:Id="i358">
             <PropertyName>Body</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>"У вас " + task + " задач"</_expression>
+            <_expression>"У вас " + task + " задач\n" + "https://tms.vittecon.ru/inbox"</_expression>
             <_screenShotBase64 i:nil="true" />
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
