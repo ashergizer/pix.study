@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/BR.Logic">
+  <CompilationType>CSharp</CompilationType>
+  <Description>Новый скрипт без наполнения.</Description>
+  <Id>be3894ac-02d8-486a-8e5e-f399e7d8e3fc</Id>
+  <Logic z:Id="i2" i:type="ExecutedStep">
+    <Childs>
+      <AbstractStep z:Id="i3" i:type="ExecutedStep">
+        <Childs />
+        <HeightOnFlowchart>50</HeightOnFlowchart>
+        <Id>ee419a95-fbe8-4c7e-a87e-f18039a07d5a</Id>
+        <Parent z:Ref="i2" />
+        <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+        <PropertyValues>
+          <PropertyValue z:Id="i4">
+            <PropertyName>ContextMenuName</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>"Выход из системы"</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i5">
+            <PropertyName>Element</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>sapElement</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i6">
+            <PropertyName>Index</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>4</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i7">
+            <PropertyName>XPath</PropertyName>
+            <_dataType>XPath</_dataType>
+            <_expression i:nil="true" />
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" z:Id="i8">
+              <d7p1:Nodes xmlns:d8p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel">
+                <d8p1:list>
+                  <d7p1:XPathNode z:Id="i9">
+                    <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+                    <d7p1:Attributes>
+                      <d8p1:list>
+                        <d7p1:XPathAttribute z:Id="i10">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value i:nil="true" />
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name></d7p1:_name>
+                        </d7p1:XPathAttribute>
+                        <d7p1:XPathAttribute z:Id="i11">
+                          <d7p1:IsEnabled>true</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>false</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>'/app/con[0]/ses[0]/wnd[0]/mbar'</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name>Id</d7p1:_name>
+                        </d7p1:XPathAttribute>
+                      </d8p1:list>
+                    </d7p1:Attributes>
+                    <d7p1:IsEnabled>true</d7p1:IsEnabled>
+                    <d7p1:Name>SapGuiElement</d7p1:Name>
+                  </d7p1:XPathNode>
+                </d8p1:list>
+              </d7p1:Nodes>
+              <d7p1:ScreenShotBase64>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</d7p1:ScreenShotBase64>
+            </_xpathSettings>
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId>0</SelectedOptionId>
+        <WidthOnFlowchart>360</WidthOnFlowchart>
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>Activities.Desktop.SAP.ClicklToolbarContextMenu</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i12" i:type="ExecutedStep">
+        <Childs />
+        <HeightOnFlowchart>50</HeightOnFlowchart>
+        <Id>33e6c057-8c47-4679-91c9-8b00b49d6af9</Id>
+        <Parent z:Ref="i2" />
+        <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+        <PropertyValues>
+          <PropertyValue z:Id="i13">
+            <PropertyName>Element</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>exitYes</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i14">
+            <PropertyName>XPath</PropertyName>
+            <_dataType>XPath</_dataType>
+            <_expression i:nil="true" />
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" z:Id="i15">
+              <d7p1:Nodes xmlns:d8p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel">
+                <d8p1:list>
+                  <d7p1:XPathNode z:Id="i16">
+                    <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+                    <d7p1:Attributes>
+                      <d8p1:list>
+                        <d7p1:XPathAttribute z:Id="i17">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value i:nil="true" />
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name></d7p1:_name>
+                        </d7p1:XPathAttribute>
+                        <d7p1:XPathAttribute z:Id="i18">
+                          <d7p1:IsEnabled>true</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>false</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>'/app/con[0]/ses[0]/wnd[1]/usr/btnSPOP-OPTION1'</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name>Id</d7p1:_name>
+                        </d7p1:XPathAttribute>
+                      </d8p1:list>
+                    </d7p1:Attributes>
+                    <d7p1:IsEnabled>true</d7p1:IsEnabled>
+                    <d7p1:Name>SapGuiElement</d7p1:Name>
+                  </d7p1:XPathNode>
+                </d8p1:list>
+              </d7p1:Nodes>
+              <d7p1:ScreenShotBase64>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</d7p1:ScreenShotBase64>
+            </_xpathSettings>
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId i:nil="true" />
+        <WidthOnFlowchart>360</WidthOnFlowchart>
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>Activities.Desktop.Sap.FindElement</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i19" i:type="ExecutedStep">
+        <Childs />
+        <HeightOnFlowchart>50</HeightOnFlowchart>
+        <Id>e8fefd5f-3dfb-42b4-9b2c-2ec0768f3e6f</Id>
+        <Parent z:Ref="i2" />
+        <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+        <PropertyValues>
+          <PropertyValue z:Id="i20">
+            <PropertyName>Element</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>exitYes</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i21">
+            <PropertyName>XPath</PropertyName>
+            <_dataType>XPath</_dataType>
+            <_expression i:nil="true" />
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" z:Id="i22">
+              <d7p1:Nodes xmlns:d8p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel">
+                <d8p1:list>
+                  <d7p1:XPathNode z:Id="i23">
+                    <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+                    <d7p1:Attributes>
+                      <d8p1:list>
+                        <d7p1:XPathAttribute z:Id="i24">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value i:nil="true" />
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name></d7p1:_name>
+                        </d7p1:XPathAttribute>
+                        <d7p1:XPathAttribute z:Id="i25">
+                          <d7p1:IsEnabled>true</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>false</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>'/app/con[0]/ses[0]/wnd[1]/usr/btnSPOP-OPTION1'</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name>Id</d7p1:_name>
+                        </d7p1:XPathAttribute>
+                      </d8p1:list>
+                    </d7p1:Attributes>
+                    <d7p1:IsEnabled>true</d7p1:IsEnabled>
+                    <d7p1:Name>SapGuiElement</d7p1:Name>
+                  </d7p1:XPathNode>
+                </d8p1:list>
+              </d7p1:Nodes>
+              <d7p1:ScreenShotBase64>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</d7p1:ScreenShotBase64>
+            </_xpathSettings>
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId>1</SelectedOptionId>
+        <WidthOnFlowchart>360</WidthOnFlowchart>
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>Activities.Desktop.Sap.ClickElement</_activityFullName>
+      </AbstractStep>
+    </Childs>
+    <HeightOnFlowchart i:nil="true" />
+    <Id>546ed480-8d89-4c64-9899-3da9f6529369</Id>
+    <Parent i:nil="true" />
+    <PositionOnFlowchart xmlns:d3p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+    <PropertyValues />
+    <SelectedOptionId i:nil="true" />
+    <WidthOnFlowchart i:nil="true" />
+    <AutoCloseMode>None</AutoCloseMode>
+    <EnableStatus>true</EnableStatus>
+    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+    <RetryCount>-1</RetryCount>
+    <Text></Text>
+    <_activityFullName>BR.Core.Base.Container</_activityFullName>
+  </Logic>
+  <Name>sap_exit.pix</Name>
+  <Namespaces xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <Params />
+  <PlatformVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System">
+    <d2p1:_Build>0</d2p1:_Build>
+    <d2p1:_Major>3</d2p1:_Major>
+    <d2p1:_Minor>2</d2p1:_Minor>
+    <d2p1:_Revision>0</d2p1:_Revision>
+  </PlatformVersion>
+  <TemplateVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System" i:nil="true" />
+  <Variables xmlns:d2p1="http://schemas.datacontract.org/2004/07/BR.Logic.Params" />
+  <Version i:nil="true" />
+</Script>

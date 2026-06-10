@@ -20,26 +20,26 @@
     <ProjectFileItem z:Id="i5">
       <IsDirectory>false</IsDirectory>
       <IsMain>false</IsMain>
-      <Path>Yandex1.pix</Path>
+      <Path>user_1.pix</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i6">
       <IsDirectory>false</IsDirectory>
       <IsMain>false</IsMain>
-      <Path>mail.pix</Path>
+      <Path>sap_auth.pix</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i7">
       <IsDirectory>false</IsDirectory>
       <IsMain>false</IsMain>
-      <Path>my_task.pix</Path>
+      <Path>sap_exit.pix</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i8">
       <IsDirectory>false</IsDirectory>
       <IsMain>false</IsMain>
-      <Path>viwork_ts.pix</Path>
+      <Path>mail.pix</Path>
     </ProjectFileItem>
   </Files>
   <MasterUploadId i:nil="true" />
-  <Name>browser_int</Name>
+  <Name>sap_user</Name>
   <PlatformVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System">
     <d2p1:_Build>0</d2p1:_Build>
     <d2p1:_Major>3</d2p1:_Major>

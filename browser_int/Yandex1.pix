@@ -3104,84 +3104,176 @@
       <AbstractStep z:Id="i357" i:type="ExecutedStep">
         <Childs />
         <HeightOnFlowchart>50</HeightOnFlowchart>
-        <Id>6e39750f-8444-479d-b14f-4c929b8e6b48</Id>
+        <Id>27f00e2c-0efd-4c98-9499-95222f52bd2f</Id>
         <Parent z:Ref="i2" />
         <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
         <PropertyValues>
           <PropertyValue z:Id="i358">
-            <PropertyName>Body</PropertyName>
+            <PropertyName>Value</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>"У вас " + task + " задач\n" + "https://tms.vittecon.ru/inbox"</_expression>
+            <_expression>Convert.ToInt32(task)</_expression>
             <_screenShotBase64 i:nil="true" />
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
           <PropertyValue z:Id="i359">
-            <PropertyName>Subject</PropertyName>
-            <_dataType>Expression</_dataType>
-            <_expression>"Мои задачи"</_expression>
-            <_screenShotBase64 i:nil="true" />
-            <_value i:nil="true" />
-            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-          </PropertyValue>
-          <PropertyValue z:Id="i360">
-            <PropertyName>Port</PropertyName>
-            <_dataType>Expression</_dataType>
-            <_expression>465</_expression>
-            <_screenShotBase64 i:nil="true" />
-            <_value i:nil="true" />
-            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-          </PropertyValue>
-          <PropertyValue z:Id="i361">
-            <PropertyName>Server</PropertyName>
-            <_dataType>Expression</_dataType>
-            <_expression>"smtp.yandex.com"</_expression>
-            <_screenShotBase64 i:nil="true" />
-            <_value i:nil="true" />
-            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-          </PropertyValue>
-          <PropertyValue z:Id="i362">
-            <PropertyName>Email</PropertyName>
-            <_dataType>Expression</_dataType>
-            <_expression>"hlopov@vittecon.ru"</_expression>
-            <_screenShotBase64 i:nil="true" />
-            <_value i:nil="true" />
-            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-          </PropertyValue>
-          <PropertyValue z:Id="i363">
-            <PropertyName>Password</PropertyName>
-            <_dataType>Expression</_dataType>
-            <_expression>mailpass</_expression>
-            <_screenShotBase64 i:nil="true" />
-            <_value i:nil="true" />
-            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-          </PropertyValue>
-          <PropertyValue z:Id="i364">
             <PropertyName>To</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>"hlopov@vittecon.ru"</_expression>
+            <_expression>taskInt</_expression>
             <_screenShotBase64 i:nil="true" />
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
         </PropertyValues>
-        <SelectedOptionId>0</SelectedOptionId>
+        <SelectedOptionId i:nil="true" />
         <WidthOnFlowchart>360</WidthOnFlowchart>
         <AutoCloseMode>None</AutoCloseMode>
         <EnableStatus>true</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
         <Text></Text>
-        <_activityFullName>Activities.Email.SendSMTPMailMessage</_activityFullName>
+        <_activityFullName>BR.Core.Base.Assign</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i365" i:type="ExecutedStep">
+      <AbstractStep z:Id="i360" i:type="ExecutedStep">
+        <Childs>
+          <AbstractStep z:Id="i361" i:type="ExecutedStep">
+            <Childs>
+              <AbstractStep z:Id="i362" i:type="ExecutedStep">
+                <Childs />
+                <HeightOnFlowchart>50</HeightOnFlowchart>
+                <Id>6e39750f-8444-479d-b14f-4c929b8e6b48</Id>
+                <Parent z:Ref="i361" />
+                <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+                <PropertyValues>
+                  <PropertyValue z:Id="i363">
+                    <PropertyName>Body</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>"У вас " + task + " задач\n" + "https://tms.vittecon.ru/inbox"</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                  <PropertyValue z:Id="i364">
+                    <PropertyName>Subject</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>"Мои задачи"</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                  <PropertyValue z:Id="i365">
+                    <PropertyName>Port</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>465</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                  <PropertyValue z:Id="i366">
+                    <PropertyName>Server</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>"smtp.yandex.com"</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                  <PropertyValue z:Id="i367">
+                    <PropertyName>Email</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>"hlopov@vittecon.ru"</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                  <PropertyValue z:Id="i368">
+                    <PropertyName>Password</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>mailpass</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                  <PropertyValue z:Id="i369">
+                    <PropertyName>To</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>"hlopov@vittecon.ru"</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                </PropertyValues>
+                <SelectedOptionId>0</SelectedOptionId>
+                <WidthOnFlowchart>360</WidthOnFlowchart>
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text></Text>
+                <_activityFullName>Activities.Email.SendSMTPMailMessage</_activityFullName>
+              </AbstractStep>
+            </Childs>
+            <HeightOnFlowchart i:nil="true" />
+            <Id>cf774504-eef0-4414-b89a-4a2067a8ac92</Id>
+            <Parent z:Ref="i360" />
+            <PositionOnFlowchart xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+            <PropertyValues />
+            <SelectedOptionId i:nil="true" />
+            <WidthOnFlowchart i:nil="true" />
+            <AutoCloseMode>None</AutoCloseMode>
+            <EnableStatus>true</EnableStatus>
+            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+            <RetryCount>-1</RetryCount>
+            <Text></Text>
+            <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
+          </AbstractStep>
+          <AbstractStep z:Id="i370" i:type="ExecutedStep">
+            <Childs />
+            <HeightOnFlowchart i:nil="true" />
+            <Id>c14511f5-dd20-4f8c-9a03-d067955062b6</Id>
+            <Parent z:Ref="i360" />
+            <PositionOnFlowchart xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+            <PropertyValues />
+            <SelectedOptionId i:nil="true" />
+            <WidthOnFlowchart i:nil="true" />
+            <AutoCloseMode>None</AutoCloseMode>
+            <EnableStatus>true</EnableStatus>
+            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+            <RetryCount>-1</RetryCount>
+            <Text></Text>
+            <_activityFullName>BR.Core.Base.IfFalse</_activityFullName>
+          </AbstractStep>
+        </Childs>
+        <HeightOnFlowchart i:nil="true" />
+        <Id>7f9de02a-3080-4867-83c7-92c2eeeb9746</Id>
+        <Parent z:Ref="i2" />
+        <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+        <PropertyValues>
+          <PropertyValue z:Id="i371">
+            <PropertyName>Condition</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>taskInt &gt; 0</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId i:nil="true" />
+        <WidthOnFlowchart i:nil="true" />
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>BR.Core.Base.If</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i372" i:type="ExecutedStep">
         <Childs />
         <HeightOnFlowchart>50</HeightOnFlowchart>
         <Id>5bd3d841-63f1-4d1c-a926-5dad6af126c2</Id>
         <Parent z:Ref="i2" />
         <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
         <PropertyValues>
-          <PropertyValue z:Id="i366">
+          <PropertyValue z:Id="i373">
             <PropertyName>Browser</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>browser</_expression>
@@ -3199,14 +3291,14 @@
         <Text></Text>
         <_activityFullName>Activities.Web.CloseBrowser</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i367" i:type="ExecutedStep">
+      <AbstractStep z:Id="i374" i:type="ExecutedStep">
         <Childs />
         <HeightOnFlowchart>50</HeightOnFlowchart>
         <Id>4602089a-77a3-4ba3-ad1a-a8c1110e8c5a</Id>
         <Parent z:Ref="i2" />
         <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
         <PropertyValues>
-          <PropertyValue z:Id="i368">
+          <PropertyValue z:Id="i375">
             <PropertyName>Text</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>"У вас " + value + " задач"</_expression>
@@ -3214,7 +3306,7 @@
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
-          <PropertyValue z:Id="i369">
+          <PropertyValue z:Id="i376">
             <PropertyName>Title</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>"Задачи"</_expression>
@@ -3250,19 +3342,26 @@
   <Name>Yandex1.pix</Name>
   <Namespaces xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   <Params>
-    <Parameter z:Id="i370">
+    <Parameter z:Id="i377">
       <DefaultValueExpression>@"282Vitte"</DefaultValueExpression>
       <Description></Description>
       <Name>pass</Name>
       <RunnerType>Freeze</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
-    <Parameter z:Id="i371">
+    <Parameter z:Id="i378">
       <DefaultValueExpression>@"deysrhjxedwahjjx"</DefaultValueExpression>
       <Description></Description>
       <Name>mailpass</Name>
       <RunnerType>Freeze</RunnerType>
       <TypeString>System.String</TypeString>
+    </Parameter>
+    <Parameter z:Id="i379">
+      <DefaultValueExpression></DefaultValueExpression>
+      <Description></Description>
+      <Name>taskInt</Name>
+      <RunnerType>None</RunnerType>
+      <TypeString>System.Int32</TypeString>
     </Parameter>
   </Params>
   <PlatformVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System">
