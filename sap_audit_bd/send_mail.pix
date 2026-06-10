@@ -2,13 +2,13 @@
 <Script xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/BR.Logic">
   <CompilationType>CSharp</CompilationType>
   <Description>Новый скрипт без наполнения.</Description>
-  <Id>1475d989-a453-4e61-80d9-1397c7479734</Id>
+  <Id>e6d1f856-1360-4bd6-a46f-849a2d98323d</Id>
   <Logic z:Id="i2" i:type="ExecutedStep">
     <Childs>
       <AbstractStep z:Id="i3" i:type="ExecutedStep">
         <Childs />
         <HeightOnFlowchart>50</HeightOnFlowchart>
-        <Id>50be0b5a-10b6-4c09-97df-72d19c0392b9</Id>
+        <Id>b2f12c09-84e0-4663-bcd1-da33dffc1a6e</Id>
         <Parent z:Ref="i2" />
         <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
         <PropertyValues>
@@ -45,7 +45,7 @@
               <AbstractStep z:Id="i8" i:type="ExecutedStep">
                 <Childs />
                 <HeightOnFlowchart>50</HeightOnFlowchart>
-                <Id>07df44e2-4354-4085-be65-9e4bb5c288ab</Id>
+                <Id>4900b7b7-fa0d-4ef8-9d3e-1448b9d52f19</Id>
                 <Parent z:Ref="i7" />
                 <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
                 <PropertyValues>
@@ -78,7 +78,7 @@
               <AbstractStep z:Id="i11" i:type="ExecutedStep">
                 <Childs />
                 <HeightOnFlowchart>50</HeightOnFlowchart>
-                <Id>b6615d67-1982-4ff5-99c7-b13f2ace9032</Id>
+                <Id>bca82e63-1604-454f-b16e-38b21bdfb5e0</Id>
                 <Parent z:Ref="i7" />
                 <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
                 <PropertyValues>
@@ -111,14 +111,14 @@
               <AbstractStep z:Id="i14" i:type="ExecutedStep">
                 <Childs />
                 <HeightOnFlowchart>50</HeightOnFlowchart>
-                <Id>2cae5708-995b-4492-84eb-797421ab6194</Id>
+                <Id>752ad78d-0d98-4b66-abe0-d659833a96db</Id>
                 <Parent z:Ref="i7" />
                 <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
                 <PropertyValues>
                   <PropertyValue z:Id="i15">
                     <PropertyName>Body</PropertyName>
                     <_dataType>Expression</_dataType>
-                    <_expression>"Список пользователей"</_expression>
+                    <_expression>"Аудит дат рождения"</_expression>
                     <_screenShotBase64 i:nil="true" />
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
@@ -126,7 +126,7 @@
                   <PropertyValue z:Id="i16">
                     <PropertyName>Subject</PropertyName>
                     <_dataType>Expression</_dataType>
-                    <_expression>"Пользователи"</_expression>
+                    <_expression>"Аудит дат рождения"</_expression>
                     <_screenShotBase64 i:nil="true" />
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
@@ -192,7 +192,7 @@
               <AbstractStep z:Id="i23" i:type="ExecutedStep">
                 <Childs />
                 <HeightOnFlowchart>50</HeightOnFlowchart>
-                <Id>14ed7802-a3f2-481f-8e3e-1b4037b5cf74</Id>
+                <Id>4868f403-a852-4d66-a2f0-75d0e3adcec0</Id>
                 <Parent z:Ref="i7" />
                 <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
                 <PropertyValues>
@@ -216,7 +216,7 @@
               </AbstractStep>
             </Childs>
             <HeightOnFlowchart i:nil="true" />
-            <Id>1a38d852-9760-459f-a28a-b256ee56c442</Id>
+            <Id>485c4fd3-0e98-44c1-a23e-a4a3a491caa8</Id>
             <Parent z:Ref="i6" />
             <PositionOnFlowchart xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
             <PropertyValues />
@@ -234,7 +234,7 @@
               <AbstractStep z:Id="i26" i:type="ExecutedStep">
                 <Childs />
                 <HeightOnFlowchart>50</HeightOnFlowchart>
-                <Id>f2410866-f59f-471c-a2f8-5703d38af97a</Id>
+                <Id>88f3a36a-1b5e-4c70-8863-2dfec8c09d5a</Id>
                 <Parent z:Ref="i25" />
                 <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
                 <PropertyValues>
@@ -266,7 +266,7 @@
               </AbstractStep>
             </Childs>
             <HeightOnFlowchart i:nil="true" />
-            <Id>f0ed21dd-7d85-4104-8c8b-031820f9e2ed</Id>
+            <Id>f7c85a30-f7b3-4e1b-ae2b-b7f7e99c79d0</Id>
             <Parent z:Ref="i6" />
             <PositionOnFlowchart xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
             <PropertyValues />
@@ -281,7 +281,7 @@
           </AbstractStep>
         </Childs>
         <HeightOnFlowchart i:nil="true" />
-        <Id>76c3527e-8ca6-4c50-bbab-f634486cd83f</Id>
+        <Id>e0c1ee06-a2e2-4357-9e3e-a774a8070a57</Id>
         <Parent z:Ref="i2" />
         <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
         <PropertyValues>
@@ -305,7 +305,7 @@
       </AbstractStep>
     </Childs>
     <HeightOnFlowchart i:nil="true" />
-    <Id>1916e013-ca4d-4959-bd64-d80d90cf4d9a</Id>
+    <Id>06178ecd-04a7-4e30-9d22-c72324fa322d</Id>
     <Parent i:nil="true" />
     <PositionOnFlowchart xmlns:d3p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
     <PropertyValues />
@@ -318,20 +318,20 @@
     <Text></Text>
     <_activityFullName>BR.Core.Base.Container</_activityFullName>
   </Logic>
-  <Name>mail.pix</Name>
+  <Name>send_mail.pix</Name>
   <Namespaces xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   <Params>
     <Parameter z:Id="i30">
-      <DefaultValueExpression></DefaultValueExpression>
-      <Description>"Почта пароль"</Description>
-      <Name>mailpass</Name>
+      <DefaultValueExpression>@"C:\Users\UserVC\AppData\Local\PIX\Projects\pix.study\sap_audit_bd\audit_report.html"</DefaultValueExpression>
+      <Description></Description>
+      <Name>file</Name>
       <RunnerType>Freeze</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
     <Parameter z:Id="i31">
-      <DefaultValueExpression>@"C:\Users\UserVC\AppData\Local\PIX\Projects\pix.study\sap_user\user.xlsx"</DefaultValueExpression>
+      <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
-      <Name>file</Name>
+      <Name>mailpass</Name>
       <RunnerType>Freeze</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
